@@ -7,11 +7,36 @@
 	background-color: red;
 	height: 50%;
 	width: 50%;
-	transition: transform 1s ease-in;
-	transition: transform 1s cubic-bezier(1, -0.4, 0, 1.41) 2s;
+	/* transition: transform 1s ease-in; */
+	/* transition: transform 1s cubic-bezier(1, -0.4, 0, 1.41) 2s; */
+	/* animation: left-to-right 1.5s ease-in forwards infinite alternate 1s; */
 }
 .parent:hover .child {
 	/* background-color: rgb(3, 90, 68); */
 	/* transition: transform 1s; */
-	transform: translateX(100%);
+	/* transform: translateX(100%); */
+	animation: left-to-right 1.5s ease-in forwards 3 alternate;
+	animation: left-to-right 1.5s ease-in forwards 3 alternate 1s;
+	animation: left-to-right 1.5s ease-in backwards 3 alternate 1s;
+	animation: left-to-right 1.5s ease-in forwards infinite alternate 1s;
+	/* animation-play-state: paused; */
+}
+@keyframes left-to-right {
+	0% {
+		transform: translateX(0);
+		background-color: red;
+	}
+	33% {
+		transform: translateY(100%);
+	}
+	50% {
+		background-color: blue;
+	}
+	66% {
+		transform: translate(100%, 100%);
+	}
+	100% {
+		transform: translateX(100%);
+		background-color: green;
+	}
 }
