@@ -1,35 +1,12 @@
-# CSS3 Animation Practice
+# CSS Animation Practice
 
 ## Click the bellow link to see some of my practiced project
 
-https://shajal-kumer.github.io/svg-animation/
+https://shajal-kumer.github.io/css-animation/
 
 ---
 
 ## What i learned?
-
-### SVG attribute
-
----
-
-> stroke-dasharray: none[default] | dasharray | 10, 5 | 18, 10, 6
-
--   `stroke-dasharray: 10`
--   `stroke-dasharray: 10 10`
--   `stroke-dasharray: 10 5`
-
-> stroke-dashoffset: 0[default] | length | 5 | 10;
-
--   `stroke-dashoffset: 5`
--   `stroke-dashoffset: 15`
-
-> stroke-width: length | percentage | 5px ;
-
--   `stroke-width: 5px`
-
-> fill: color | red;
-
--   `fill: green`
 
 ### CSS transform propertie
 
@@ -49,7 +26,33 @@ https://shajal-kumer.github.io/svg-animation/
 
 > transform-box: fill-box | view-box[default];
 
+> > The transform-box CSS property defines the layout box to which the transform and transform-origin properties relate.
+
+> > **fill-box** : The object bounding box is used as the reference box.
+
+> > **view-box:** The nearest SVG viewport is used as the reference box.
+
 -   `transform-box: fill-box;`
+
+> backface-visibility: fill-box | view-box[default];
+
+> > The backface-visibility property defines whether or not the back face of an element should be visible when facing the user.
+
+> > The back face of an element is a mirror image of the front face being displayed.
+
+> > This property is useful when an element is rotated. It lets you choose if the user should see the back face or not.
+
+-   `backface-visibility: fill-box;`
+
+> perspective: none[default] | length | 1000px;
+
+> > The perspective property is used to give a 3D-positioned element some perspective.
+
+> > The perspective property defines how far the object is away from the user. So, a lower value will result in a more intensive 3D effect than a higher value.
+
+> > Large values of perspective cause a small transformation; small values of perspective cause a large transformation.
+
+-   `perspective: 1000px;`
 
 ### CSS animation propertie & @keyframe
 
@@ -101,8 +104,6 @@ https://shajal-kumer.github.io/svg-animation/
 
 > > **Both:** the styles are applied before and after the animation plays
 
-Already blueFrom blue to greenRemains gree
-
 -   `animation-fill-mode: forward;`
 
 > animation-direction: normal[default] | reverse | alternate | alternate-reverse
@@ -115,30 +116,38 @@ Already blueFrom blue to greenRemains gree
 
 > > **alternate-reverse**: starts at 100%, goes to 0%, goes to 100%
 
--   `animation-direction: forward;`
+> @keyframes animationname {keyframes-selector {css-styles;}}
+
+> > The animation is created by gradually changing from one set of CSS styles to another.
+
+> > During the animation, you can change the set of CSS styles many times.
+
+-   `@keyframes move {`
+-   -   `0% {top: 0px;}`
+-   -   `75% {top: 200px;}`
+-   -   `100% {top: 0px;}`
+-   `}`
 
 ---
 
-**Bicycle SVG Animation with CSS**
+**Shopping cart Animation with CSS**
 
--   ![(bicyle.png](bicyle.png)
+-   ![(bicyle.png](shopping.png)
 
-**Cat SVG Animation with CSS**
+**Loading Animation with CSS**
 
--   ![(cat.png](cat.png)
+-   ![(cat.png](loading.png)
 
-**Soccer SVG Animation with CSS**
+**Pop-up Animation with CSS**
 
--   ![(soccer.png](soccer.png)
+-   ![(soccer.png](pop-up.png)
 
-**Text SVG Animation with CSS**
+**3D flip animation Animation with CSS**
 
--   ![text.png](text.png)
+-   ![text.png](flip.png)
 
 References:
 
-1. https://marksheet.io/css-animations.html
-2. https://www.w3schools.com/css/css3_animations.asp
-3. https://www.youtube.com/watch?v=IM8eTD01UE8
-4. https://www.youtube.com/watch?v=gWai7fYp9PY&t=2s
-5. https://www.youtube.com/watch?v=vJNVramny9k
+1. https://developer.mozilla.org/en-US/docs/Web/CSS/perspective
+2. https://www.w3schools.com/cssref/css3_pr_perspective.asp
+3. https://www.w3schools.com/cssref/css3_pr_backface-visibility.asp
