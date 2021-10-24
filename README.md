@@ -150,11 +150,13 @@ CSS animation property and its different values & @keyframe
 
 ## 🚀 About Me
 
-I'm a front-end developer
+I'm a front-end developer with backend knowledge.
 
 ## 🛠 Skills
 
-Javascript, React, HTML, CSS, Bootstrap, Tailwind, SASS, SVG, GSAP
+**Front-end** : Javascript, React, HTML, CSS, Bootstrap, Tailwind, SASS, SVG, GSAP
+
+**Aditional Backend** : Node.js, Express.js, MongoDB, MySQL
 
 ## Acknowledgements
 
