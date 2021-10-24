@@ -1,16 +1,14 @@
 # CSS Animation Practice
 
-## Click the bellow link to see some of my practiced project
+This repo is the part of my frot-end development journey. In modern web app we can see there are using so many web animation. So i practice CSS animation for web animation.
+
+## Demo
 
 https://shajal-kumer.github.io/css-animation/
 
----
+## Lessons Learned
 
-## What i learned?
-
-### CSS transform propertie
-
----
+CSS transform property and its different values
 
 > transform: translateX | translateY | rotate | rotateY | scale | scaleX | scaleY;
 
@@ -54,7 +52,7 @@ https://shajal-kumer.github.io/css-animation/
 
 -   `perspective: 1000px;`
 
-### CSS animation propertie & @keyframe
+CSS animation property and its different values & @keyframe
 
 ---
 
@@ -128,25 +126,37 @@ https://shajal-kumer.github.io/css-animation/
 -   -   `100% {top: 0px;}`
 -   `}`
 
----
+## Screenshots
 
-**Shopping cart Animation with CSS**
+> Shopping cart Animation with CSS
 
--   ![(bicyle.png](shopping.png)
+![(bicyle.png](shopping.png)
 
-**Loading Animation with CSS**
+> Loading Animation with CSS
 
--   ![(cat.png](loading.png)
+![(cat.png](loading.png)
 
-**Pop-up Animation with CSS**
+> Pop-up Animation with CSS
 
--   ![(soccer.png](pop-up.png)
+![(soccer.png](pop-up.png)
 
-**3D flip animation Animation with CSS**
+> 3D flip animation Animation with CSS
 
--   ![text.png](flip.png)
+![text.png](flip.png)
 
-References:
+## Tech Stack
+
+**Client:** HTML, CSS, Javascript
+
+## 🚀 About Me
+
+I'm a front-end developer
+
+## 🛠 Skills
+
+Javascript, React, HTML, CSS, Bootstrap, Tailwind, SASS, SVG, GSAP
+
+## Acknowledgements
 
 1. https://developer.mozilla.org/en-US/docs/Web/CSS/perspective
 2. https://www.w3schools.com/cssref/css3_pr_perspective.asp
