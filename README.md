@@ -1,6 +1,6 @@
 # CSS Animation Practice
 
-This repo is the part of my frot-end development journey. In modern web app we can see there are using so many web animation. So i practice CSS animation for web animation.
+This repo is the part of my front-end development journey. In modern web app we can see there are using so many web animation. So i practice CSS animation for web animation.
 
 ## Demo
 
